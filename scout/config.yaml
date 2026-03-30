@@ -1,0 +1,44 @@
+# Scout Configuration
+# Edit this file to customize your thought leader discovery.
+
+# Topics to track — add as many as you like
+topics:
+  - name: "electric space propulsion"
+    queries:
+      - "electric propulsion spacecraft"
+      - "ion thruster Hall thruster development"
+      - "FEEP electrospray propulsion"
+      - "in-space propulsion startup"
+      - "small satellite propulsion"
+
+# Platforms to search (comment out any you don't want)
+platforms:
+  - substack
+  - medium
+  - reddit
+  - youtube
+  - twitter
+
+# Nitter instances for Twitter/X RSS (tried in order, falls back on failure)
+nitter_instances:
+  - "nitter.privacydev.net"
+  - "nitter.poast.org"
+  - "nitter.woodland.cafe"
+
+# Search settings
+search:
+  delay_seconds: 2          # Pause between DuckDuckGo requests
+  max_results_per_platform: 10  # Results per platform per topic
+
+# Monitoring settings
+monitor:
+  interval_hours: 6         # How often to poll feeds (for cron setup)
+
+# Digest settings
+digest:
+  days: 7                   # Default lookback for digests
+  output_dir: "digests"     # Where to save digest files
+
+# Optional: Anthropic API key for AI-powered theme extraction
+# Set here or as ANTHROPIC_API_KEY environment variable
+# anthropic_api_key: "sk-ant-..."

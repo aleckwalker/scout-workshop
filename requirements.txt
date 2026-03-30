@@ -1,0 +1,5 @@
+ddgs>=7.0.0
+feedparser>=6.0.0
+PyYAML>=6.0
+# Optional: uncomment for AI-powered theme extraction
+# anthropic>=0.40.0
